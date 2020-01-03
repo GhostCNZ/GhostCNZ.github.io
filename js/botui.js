@@ -26,11 +26,11 @@ function bot_ui_ini() {
     }).then(function () {
         botui.message.add({
             delay: 1100,
-            content: "这里是 Mashiro"
+            content: "这里是 GhostCN_Z"
         }).then(function () {
             botui.message.add({
                 delay: 1100,
-                content: "一个可爱的蓝孩子~"
+                content: "一个帅气的蓝孩子~"
             }).then(function () {
                 botui.action.button({
                     delay: 1600,
@@ -65,33 +65,33 @@ function bot_ui_ini() {
         secondpart = function () {
             botui.message.add({
                 delay: 1500,
-                content: "目前就读于上海财经大学"
+                content: "目前从事IT行业"
             }).then(function () {
                 botui.message.add({
                     delay: 1500,
-                    content: "向往技术却误入商科，但后来喜欢上了经济学…"
+                    content: "一直热爱技术、热爱装逼、热爱生活；当然肯定最爱我的濛宝"
                 }).then(function () {
                     botui.message.add({
                         delay: 1200,
-                        content: "因为数据分析也需要Coder嘛"
+                        content: "技术方面什么都了解那么一点，什么都钻研那么一点。"
                     }).then(function () {
                         botui.message.add({
                             delay: 1500,
-                            content: "主攻 R 语言和 Python，略懂 STATA，偶尔也折腾 HTML/CSS/JavaScript/PHP"
+                            content: "主攻 Python 语言和 Go，略懂 C、Java，偶尔也折腾 HTML/CSS/JavaScript/PHP"
                         }).then(function () {
                             botui.message.add({
                                 delay: 1500,
-                                content: "研究的方向，是经济/金融方向的数据分析（data science）以及机器学习（machine learning）"
+                                content: "研究的方向：是经济/金融方向的数据分析（data science）以及机器学习（machine learning）"
                             }).then(function () {
                                 botui.message.add({
                                     delay: 1800,
-                                    content: "喜欢画画，希望有一天能够被称为画师"
+                                    content: "喜欢游山玩水，希望有一天可以当个酒店体验师。"
                                 }).then(function () {
                                     botui.action.button({
                                         delay: 1100,
                                         action: [{
-                                            text: "为什么叫Mashiro呢？ 🤔",
-                                            value: "why-mashiro"
+                                            text: "为什么叫GhostCN_Z呢？ 🤔",
+                                            value: "why-GhostCN_Z"
                                         }]
                                     }).then(function (a) {
                                         thirdpart()
@@ -106,13 +106,13 @@ function bot_ui_ini() {
         thirdpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "Mashiro以及站名都来自一部动画，因为和主角有一样的爱好~ 如果有兴趣可以找找首页上的视频~"
+                content: "GhostCN_Z的Ghost英文意义是幽灵的意思，无声无息、致人于死地。在计算机中也是常用的备份恢复软件；CN则为中国，Z当然是我自己名字的首字母了；以前和外国友人打游戏时常用这个名字。"
             }).then(function () {
                 botui.action.button({
                     delay: 1500,
                     action: [{
-                        text: "为什么是白猫呢？ 🤔",
-                        value: "why-cat"
+                        text: "怎么和女朋友在一起的呢？ 🤔",
+                        value: "why-she"
                     }]
                 }).then(function (a) {
                     fourthpart()
@@ -122,17 +122,17 @@ function bot_ui_ini() {
         fourthpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "因为对GitHub有种执念… "
+                content: "当然是因为她追的我啦！ "
             }).then(function () {
                 botui.message.add({
                     delay: 1100,
-                    content: "而且我真的是猫控！"
+                    content: "开玩笑开玩笑哈哈哈，大学的时候就有感觉了，没想到大学毕业以后在一起了。"
                 }).then(function () {
                     botui.action.button({
                         delay: 1500,
                         action: [{
                             text: "域名有什么含意吗？(ง •_•)ง",
-                            value: "why-domain"
+                            value: "why-website"
                         }]
                     }).then(function (a) {
                         fifthpart()
@@ -143,7 +143,7 @@ function bot_ui_ini() {
         fifthpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "emmmm，看备案信息你就知道了=.= 本来想要zheng.xin的，但50万真买不起。。"
+                content: "emmmm，目前没换域名，之后再换的时候再注明含意吧"
             }).then(function () {
                 botui.message.add({
                     delay: 1600,
